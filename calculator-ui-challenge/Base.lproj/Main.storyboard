@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,14 +12,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="calculator_ui_challenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="7A6-8M-N32" userLabel="FirstStackView">
-                                <rect key="frame" x="16" y="349" width="382" height="58"/>
+                                <rect key="frame" x="16" y="265" width="343" height="58"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7U-yq-0Am">
-                                        <rect key="frame" x="0.0" y="0.0" width="83.666666666666671" height="58"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="73.666666666666671" height="58"/>
                                         <color key="backgroundColor" red="0.91282910110000004" green="0.94104874130000005" blue="0.95769733189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="16" maxX="24" maxY="16"/>
@@ -33,7 +33,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oxy-mn-73k">
-                                        <rect key="frame" x="99.666666666666686" y="0.0" width="83.333333333333314" height="58"/>
+                                        <rect key="frame" x="89.666666666666671" y="0.0" width="74.000000000000014" height="58"/>
                                         <color key="backgroundColor" red="0.91282910110000004" green="0.94104874130000005" blue="0.95769733189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="16" maxX="24" maxY="16"/>
@@ -47,7 +47,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBx-Vz-LG1">
-                                        <rect key="frame" x="199" y="0.0" width="83.666666666666686" height="58"/>
+                                        <rect key="frame" x="179.66666666666666" y="0.0" width="73.666666666666657" height="58"/>
                                         <color key="backgroundColor" red="0.91282910110000004" green="0.94104874130000005" blue="0.95769733189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="16" maxX="24" maxY="16"/>
@@ -61,7 +61,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ukR-9B-c3K">
-                                        <rect key="frame" x="298.66666666666669" y="0.0" width="83.333333333333314" height="58"/>
+                                        <rect key="frame" x="269.33333333333331" y="0.0" width="73.666666666666686" height="58"/>
                                         <color key="backgroundColor" red="0.91282910110000004" green="0.94104874130000005" blue="0.95769733189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="16" maxX="24" maxY="16"/>
@@ -77,10 +77,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="b7C-Pe-gQO" userLabel="ThirdStackView">
-                                <rect key="frame" x="16" y="514" width="382" height="75"/>
+                                <rect key="frame" x="16" y="430" width="343" height="75"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8JQ-Rf-hPY">
-                                        <rect key="frame" x="0.0" y="0.0" width="83.666666666666671" height="75"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="73.666666666666671" height="75"/>
                                         <color key="backgroundColor" red="0.91282910110000004" green="0.94104874130000005" blue="0.95769733189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -94,7 +94,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ra-gS-bPW">
-                                        <rect key="frame" x="99.666666666666686" y="0.0" width="83.333333333333314" height="75"/>
+                                        <rect key="frame" x="89.666666666666671" y="0.0" width="74.000000000000014" height="75"/>
                                         <color key="backgroundColor" red="0.91282910110000004" green="0.94104874130000005" blue="0.95769733189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -108,7 +108,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gu-Sy-cOr">
-                                        <rect key="frame" x="199" y="0.0" width="83.666666666666686" height="75"/>
+                                        <rect key="frame" x="179.66666666666666" y="0.0" width="73.666666666666657" height="75"/>
                                         <color key="backgroundColor" red="0.91282910110000004" green="0.94104874130000005" blue="0.95769733189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -122,7 +122,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2tQ-aS-SBj">
-                                        <rect key="frame" x="298.66666666666669" y="0.0" width="83.333333333333314" height="75"/>
+                                        <rect key="frame" x="269.33333333333331" y="0.0" width="73.666666666666686" height="75"/>
                                         <color key="backgroundColor" red="1" green="0.58680474760000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -138,10 +138,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Xrm-Gb-tYO" userLabel="FourthStackView">
-                                <rect key="frame" x="16" y="605" width="382" height="75"/>
+                                <rect key="frame" x="16" y="521" width="343" height="75"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ui-0F-QUb">
-                                        <rect key="frame" x="0.0" y="0.0" width="83.666666666666671" height="75"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="73.666666666666671" height="75"/>
                                         <color key="backgroundColor" red="0.91282910110000004" green="0.94104874130000005" blue="0.95769733189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -155,7 +155,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVC-He-Ji7">
-                                        <rect key="frame" x="99.666666666666686" y="0.0" width="83.333333333333314" height="75"/>
+                                        <rect key="frame" x="89.666666666666671" y="0.0" width="74.000000000000014" height="75"/>
                                         <color key="backgroundColor" red="0.91282910110000004" green="0.94104874130000005" blue="0.95769733189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -169,7 +169,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvD-3Y-gjb">
-                                        <rect key="frame" x="199" y="0.0" width="83.666666666666686" height="75"/>
+                                        <rect key="frame" x="179.66666666666666" y="0.0" width="73.666666666666657" height="75"/>
                                         <color key="backgroundColor" red="0.91282910110000004" green="0.94104874130000005" blue="0.95769733189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -183,7 +183,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sma-Ug-hC6">
-                                        <rect key="frame" x="298.66666666666669" y="0.0" width="83.333333333333314" height="75"/>
+                                        <rect key="frame" x="269.33333333333331" y="0.0" width="73.666666666666686" height="75"/>
                                         <color key="backgroundColor" red="1" green="0.58680474760000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -199,10 +199,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="yXf-Tq-wYg" userLabel="FifthStackView">
-                                <rect key="frame" x="16" y="696" width="382" height="75"/>
+                                <rect key="frame" x="16" y="612" width="343" height="75"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLA-8F-nG1">
-                                        <rect key="frame" x="0.0" y="0.0" width="83.666666666666671" height="75"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="73.666666666666671" height="75"/>
                                         <color key="backgroundColor" red="0.91282910110000004" green="0.94104874130000005" blue="0.95769733189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -216,7 +216,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jf1-Zg-7be">
-                                        <rect key="frame" x="99.666666666666686" y="0.0" width="83.333333333333314" height="75"/>
+                                        <rect key="frame" x="89.666666666666671" y="0.0" width="74.000000000000014" height="75"/>
                                         <color key="backgroundColor" red="0.91282910110000004" green="0.94104874130000005" blue="0.95769733189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -230,7 +230,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2X-iI-anP">
-                                        <rect key="frame" x="199" y="0.0" width="83.666666666666686" height="75"/>
+                                        <rect key="frame" x="179.66666666666666" y="0.0" width="73.666666666666657" height="75"/>
                                         <color key="backgroundColor" red="0.91282910110000004" green="0.94104874130000005" blue="0.95769733189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -244,7 +244,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odc-rX-iqM">
-                                        <rect key="frame" x="298.66666666666669" y="0.0" width="83.333333333333314" height="75"/>
+                                        <rect key="frame" x="269.33333333333331" y="0.0" width="73.666666666666686" height="75"/>
                                         <color key="backgroundColor" red="1" green="0.58680474760000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -260,10 +260,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Qi7-yj-yfq" userLabel="SixthStackView">
-                                <rect key="frame" x="16" y="787" width="382" height="75"/>
+                                <rect key="frame" x="16" y="703" width="343" height="75"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Up-nc-lV4">
-                                        <rect key="frame" x="0.0" y="0.0" width="183" height="75"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="163.66666666666666" height="75"/>
                                         <color key="backgroundColor" red="0.91282910110000004" green="0.94104874130000005" blue="0.95769733189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -277,10 +277,10 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="yzu-zK-AOE">
-                                        <rect key="frame" x="199" y="0.0" width="183" height="75"/>
+                                        <rect key="frame" x="179.66666666666663" y="0.0" width="163.33333333333337" height="75"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l16-Vc-6fI">
-                                                <rect key="frame" x="0.0" y="0.0" width="83.666666666666671" height="75"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="73.666666666666671" height="75"/>
                                                 <color key="backgroundColor" red="0.91282910110000004" green="0.94104874130000005" blue="0.95769733189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -294,7 +294,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MA0-Nr-rcs">
-                                                <rect key="frame" x="99.666666666666686" y="0.0" width="83.333333333333314" height="75"/>
+                                                <rect key="frame" x="89.666666666666657" y="0.0" width="73.666666666666657" height="75"/>
                                                 <color key="backgroundColor" red="0.12188949440000001" green="0.79421657320000005" blue="0.43786257509999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -312,10 +312,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Sms-53-vg3" userLabel="SecondStackView">
-                                <rect key="frame" x="16" y="423" width="382" height="75"/>
+                                <rect key="frame" x="16" y="339" width="343" height="75"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7YJ-YG-MvB">
-                                        <rect key="frame" x="0.0" y="0.0" width="83.666666666666671" height="75"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="73.666666666666671" height="75"/>
                                         <color key="backgroundColor" red="0.97364455459999999" green="0.92527943850000005" blue="0.92889136080000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -329,7 +329,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="89c-7d-qhy">
-                                        <rect key="frame" x="99.666666666666686" y="0.0" width="83.333333333333314" height="75"/>
+                                        <rect key="frame" x="89.666666666666671" y="0.0" width="74.000000000000014" height="75"/>
                                         <color key="backgroundColor" red="0.91282910110000004" green="0.94104874130000005" blue="0.95769733189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -343,7 +343,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsF-1k-W5k">
-                                        <rect key="frame" x="199" y="0.0" width="83.666666666666686" height="75"/>
+                                        <rect key="frame" x="179.66666666666666" y="0.0" width="73.666666666666657" height="75"/>
                                         <color key="backgroundColor" red="0.91282910110000004" green="0.94104874130000005" blue="0.95769733189999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -357,7 +357,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mz7-ZG-Yuv">
-                                        <rect key="frame" x="298.66666666666669" y="0.0" width="83.333333333333314" height="75"/>
+                                        <rect key="frame" x="269.33333333333331" y="0.0" width="73.666666666666686" height="75"/>
                                         <color key="backgroundColor" red="1" green="0.58680474760000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <inset key="contentEdgeInsets" minX="24" minY="24" maxX="24" maxY="24"/>
@@ -373,10 +373,10 @@
                                 </subviews>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C4L-xu-bYk">
-                                <rect key="frame" x="16" y="44" width="382" height="305"/>
+                                <rect key="frame" x="16" y="44" width="343" height="221"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12.567" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ggg-aG-qHp">
-                                        <rect key="frame" x="255.33333333333329" y="131" width="110.66666666666666" height="43"/>
+                                        <rect key="frame" x="216.33333333333334" y="89" width="110.66666666666666" height="43"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
